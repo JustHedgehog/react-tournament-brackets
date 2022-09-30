@@ -7,7 +7,7 @@ export function calculateSVGDimensions(
   roundHeader: any,
   currentRound: string = ''
 ) {
-  const bracketHeight = numOfRows * rowHeight;
+  const bracketHeight = 1400;
   const bracketWidth = numOfColumns * columnWidth;
 
   const gameHeight =
