@@ -84,14 +84,14 @@ const SingleEliminationBracket = ({
   return (
     <ThemeProvider theme={theme}>
       <SvgWrapper
-        bracketWidth={1400}
+        bracketWidth={gameWidth}
         bracketHeight={gameHeight}
         startAt={startPosition}
       >
         <svg
           height={gameHeight}
-          width="1400"
-          viewBox={`0 0 1400 ${gameHeight}`}
+          width={gameWidth}
+          viewBox={`0 0 ${gameWidth} ${gameHeight}`}
         >
           <MatchContextProvider>
             <g>
