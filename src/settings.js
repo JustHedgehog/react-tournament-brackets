@@ -1,5 +1,5 @@
 export const defaultStyle = {
-  width: 1400,
+  width: 300,
   boxHeight: 110,
   canvasPadding: 25,
   spaceBetweenColumns: 50,
@@ -27,7 +27,7 @@ export const defaultStyle = {
 
 export const getCalculatedStyles = style => {
   const { boxHeight, width, spaceBetweenColumns, spaceBetweenRows } = style;
-  const columnWidth = 300 + spaceBetweenColumns;
+  const columnWidth = width + spaceBetweenColumns;
   const rowHeight = boxHeight + spaceBetweenRows;
   return { ...style, rowHeight, columnWidth };
 };
