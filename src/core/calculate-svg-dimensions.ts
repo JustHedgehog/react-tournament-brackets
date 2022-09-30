@@ -8,13 +8,12 @@ export function calculateSVGDimensions(
   currentRound: string = ''
 ) {
   const bracketHeight = numOfRows * rowHeight;
-  const bracketWidth = 1400;
 
   const gameHeight =
     bracketHeight +
     canvasPadding * 2 +
     (roundHeader.isShown ? roundHeader.height + roundHeader.marginBottom : 0);
-  const gameWidth = bracketWidth + canvasPadding * 2;
+  const gameWidth = 1401 + canvasPadding * 2;
   const startPosition = [
     currentRound
       ? -(parseInt(currentRound, 10) * columnWidth - canvasPadding * 2)
