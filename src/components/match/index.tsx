@@ -38,7 +38,7 @@ function Match({
               onMatchClick?.({ match, topWon, bottomWon, event })
             }
           >
-            <TopText>Match Details</TopText>
+            <TopText>Mecz</TopText>
           </Anchor>
         )}
       </div>
