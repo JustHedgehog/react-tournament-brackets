@@ -84,7 +84,7 @@ const SingleEliminationBracket = ({
   return (
     <ThemeProvider theme={theme}>
       <SvgWrapper
-        bracketWidth={gameWidth}
+        bracketWidth={10}
         bracketHeight={gameHeight}
         startAt={startPosition}
       >

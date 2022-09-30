@@ -1,6 +1,5 @@
 export const defaultStyle = {
-  width: 1400,
-  height: 700,
+  width: 300,
   boxHeight: 110,
   canvasPadding: 25,
   spaceBetweenColumns: 50,

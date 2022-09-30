@@ -9,7 +9,6 @@ declare function Match({ rowIndex, columnIndex, match, previousBottomMatch, team
     bottomText: any;
     style?: {
         width: number;
-        height: number;
         boxHeight: number;
         canvasPadding: number;
         spaceBetweenColumns: number;
