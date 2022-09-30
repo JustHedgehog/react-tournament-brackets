@@ -91,7 +91,7 @@ const SingleEliminationBracket = ({
         <svg
           height={gameHeight}
           width={gameWidth}
-          viewBox={`0 0 ${gameWidth} ${gameHeight}`}
+          viewBox={`0 0 1400 ${gameHeight}`}
         >
           <MatchContextProvider>
             <g>
