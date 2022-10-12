@@ -99,11 +99,10 @@ function Match({
   };
 
   bottomParty.name = bottomParty.name || teamNameFallback;
-  bottomParty.name = bottomParty.name.length < 18 ? bottomParty.name : bottomParty.name.slice(0,18) + "..."
+  console.log(bottomParty.name.length)
   bottomParty.resultText =
     bottomParty.resultText || resultFallback(bottomParty);
   topParty.name = topParty.name || teamNameFallback;
-  topParty.name =topParty.name.length < 18 ? topParty.name : topParty.name.slice(0,18) + "..."
   topParty.resultText = topParty.resultText || resultFallback(topParty);
   return (
     <svg
