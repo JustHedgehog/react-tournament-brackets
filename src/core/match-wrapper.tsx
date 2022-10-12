@@ -98,10 +98,10 @@ function Match({
     dispatch({ type: 'SET_HOVERED_PARTYID', payload: null });
   };
 
-  bottomParty.name = bottomParty.name || teamNameFallback;
+  bottomParty.name = bottomParty.name.length < 10 ? bottomParty.name : bottomParty.name.slice(10) + "..." || teamNameFallback;
   bottomParty.resultText =
     bottomParty.resultText || resultFallback(bottomParty);
-  topParty.name = topParty.name || teamNameFallback;
+  topParty.name = topParty.name.length < 10 ? topParty.name : topParty.name.slice(10) + "..." || teamNameFallback;
   topParty.resultText = topParty.resultText || resultFallback(topParty);
   return (
     <svg
