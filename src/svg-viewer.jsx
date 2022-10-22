@@ -55,7 +55,7 @@ const SvgViewer = ({
       onChangeValue={setValue}
       onZoom={lockToBoundaries}
       onPan={lockToBoundaries}
-      miniatureProps={{ position: 'right' }}
+      miniatureProps={{ position: 'left' }}
       {...rest}
     >
       {children}
