@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { INITIAL_VALUE, ReactSVGPanZoom, TOOL_AUTO } from 'react-svg-pan-zoom';
+import { INITIAL_VALUE, ReactSVGPanZoom, TOOL_AUTO} from 'react-svg-pan-zoom';
 import { precisionRound } from 'Utils/numbers';
 
 const SvgViewer = ({
@@ -56,7 +56,6 @@ const SvgViewer = ({
       onZoom={lockToBoundaries}
       onPan={lockToBoundaries}
       miniatureProps={{ position: 'right' }}
-      customToolbar={() => <></>}
       {...rest}
     >
       {children}
