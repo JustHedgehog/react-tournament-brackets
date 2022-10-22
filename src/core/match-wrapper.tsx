@@ -99,7 +99,6 @@ function Match({
   };
 
   bottomParty.name = bottomParty.name || teamNameFallback;
-  console.log(bottomParty.name.length)
   bottomParty.resultText =
     bottomParty.resultText || resultFallback(bottomParty);
   topParty.name = topParty.name || teamNameFallback;
